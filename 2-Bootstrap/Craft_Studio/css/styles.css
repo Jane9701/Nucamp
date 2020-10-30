@@ -1,13 +1,16 @@
 body {
     font-family: "Open Sans", sans-serif;
+    /* font-family: 'Cuprum', sans-serif;
+font-family: 'Libre Baskerville', serif; */
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #f5b461;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Libre Baskerville";
+    font-weight: bold;
 }
 
 h2 {
@@ -24,9 +27,12 @@ header h2 {
 }*/
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+    padding: 100px;
+    background-image: url("/image/tools_header.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    width:100%;
+    color: white; 
     margin: 0;
 }
 
@@ -36,7 +42,8 @@ header h2 {
     min-height: 200px;
 }
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+    background-color:#2d6187;
+    color:white;
     padding: 20px 0;
 }
 .tab-content {
