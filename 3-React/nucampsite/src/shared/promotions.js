@@ -1,3 +1,4 @@
+//I revert the promotions.js based on earlier version
 export const PROMOTIONS = [
     {
         id: 0,
